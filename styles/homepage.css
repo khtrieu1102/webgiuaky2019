@@ -8,7 +8,7 @@
 
 .homepage-container > div {
   background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
+  text-align: left;
   padding: 20px 0;
   font-size: 30px;
 }
@@ -16,4 +16,9 @@
 .big-heading {
   grid-column-start: 1;
   grid-column-end: 4;
+}
+
+.top-news {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
