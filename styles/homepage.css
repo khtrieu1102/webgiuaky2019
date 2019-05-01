@@ -132,6 +132,7 @@
 }
 
 /* Popular news */
+
 .popular {
   font-family: "Merriweather", serif;
   margin: 0 auto;
@@ -161,4 +162,12 @@
 
 .popular-news-content > span {
   color: rgba(0, 0, 0, 0.54);
+}
+
+a {
+  text-decoration: none;
+}
+
+.popular-news-heading a:hover {
+  color: rgb(8, 86, 155);
 }
