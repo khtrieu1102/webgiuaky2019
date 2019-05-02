@@ -1,0 +1,23 @@
+footer p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background: rgb(58, 58, 61);
+    height: 100px;
+    color: white;
+    clear: left;
+    height: 100px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
