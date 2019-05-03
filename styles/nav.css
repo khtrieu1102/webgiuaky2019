@@ -2,12 +2,10 @@
   height: 100px;
   position: relative;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 #menu {
-  width: auto;
+  width: 100%;
   position: relative;
   background: #1b926c;
   z-index: 9999;
