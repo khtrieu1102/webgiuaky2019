@@ -215,36 +215,41 @@ a {
 }
 
 .categories-container {
-  padding: 5%;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .three-big-posts {
   width: 63%;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .another-small-posts {
   height: 100%;
-  width: 33%;
+  width: 30%;
   min-width: 360px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+
+  float: left;
+  margin: 0 auto;
 }
 
 .horizontal-news-container {
   min-width: 10%;
-  width: 100%;
+  width: 410px;
   max-height: 100%;
-  height: 190px;
+  height: 180px;
   background-color: white;
   border: 1px solid gray;
   position: relative;
   font-family: "Titillium Web", sans-serif;
   margin: 0 auto;
   float: left;
-  margin: 20px;
+  margin: 0 0 20px 0;
 }
 
 .horizontal-news-picture {
